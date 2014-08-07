@@ -488,8 +488,12 @@
 
 ;; ------------------------------------------------------------------------
 ;; @ color-theme
-   (require 'color-theme)
-   (color-theme-initialize)
+;;   (require 'color-theme)
+;;   (color-theme-initialize)
+
+;; @ theme-framework call (2014-08-07 by cozy)
+   (setq custom-theme-directory "~/.emacs.d/themes/")
+   (load-theme 'scintilla t)
 
 ;; ------------------------------------------------------------------------
 ;; @ package manager
