@@ -522,3 +522,9 @@
          (delete-region (line-beginning-position) (line-end-position))
          (insert (w32-symlinks-parse-symlink file)))))
 
+;; ------------------------------------------------------------------------
+;; @ My choice
+
+   (tool-bar-mode -1)
+   (recentf-mode t)
+
