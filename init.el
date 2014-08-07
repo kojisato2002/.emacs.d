@@ -527,4 +527,5 @@
 
    (tool-bar-mode -1)
    (recentf-mode t)
+   (setq initial-scratch-message "You'll never find a rainbow if you're looking down.")
 
